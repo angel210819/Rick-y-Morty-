@@ -1,1 +1,2 @@
-proyecto hecho con npx create-react-app y tailwindCSS
+proyecto hecho con npx create-react-app, tailwindCSS y react-router-dom
+
