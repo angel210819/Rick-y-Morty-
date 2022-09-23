@@ -1,0 +1,16 @@
+/* clase de estado de vida de un personaje */
+.human {
+  color: #20CDE9;
+}
+.alien {
+  color: #D4DE61;
+}
+/* clases de estados en tarjeta */
+.alive {
+  color: #40D025;
+}
+.dead {
+  color: #F31B17;
+}
+
+

@@ -1,16 +1,23 @@
-import { Router, Routes } from "react-router-dom"
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
+import Personajes from "../components/Personajes"
+import Footer from "../components/Footer"
+import Main from "../components/Main"
 import NavBar from "../components/NavBar"
+import Episodios from "../components/Episodios"
+import Localizacion from "../components/Localizacion"
 
 
-const Rutas = () => {
+export default function Rutas() {
   return (
     <Router>
-      <NavBar />
+    <NavBar />
       <Routes>
-        <Route path='/'></Route>
+        <Route path="/" element={<Main />} />
+        <Route path="/personajes" element={<Personajes />} />
+        <Route path="/episodios" element={<Episodios />} />
+        <Route path="/localizacion" element={<Localizacion />} />
       </Routes>
+      <Footer />
     </Router>
   )
 }
-
-export default Rutas
