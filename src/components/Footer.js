@@ -23,7 +23,9 @@ const Footer = () => {
             <FaWhatsapp />
           </a>
         </div>
-        <div className="pt-4"> www.angel.com </div>
+        <div className="pt-4"> 
+        <a href="https://mi-portfolio-two.vercel.app/"> mi Portfolio </a>
+        </div>
       </div>
       <div>
         <Link to="/episodios"> EPISODIOS </Link>
